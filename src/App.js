@@ -1,4 +1,5 @@
 import Counter from "./components/Counter";
+import DynamicHookCounter from "./components/DynamicHookCounter";
 import HookCounter from "./components/HookCounter";
 
 export default function App() {
@@ -11,6 +12,7 @@ export default function App() {
             <div className="max-w-md mx-auto mt-10 space-y-5">
                 {/* <Counter /> */}
                 <HookCounter />
+                <DynamicHookCounter />
             </div>
         </div>
     );
